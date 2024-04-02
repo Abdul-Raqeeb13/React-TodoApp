@@ -1,0 +1,49 @@
+.box{
+    margin: auto !important;
+    width: 500px;
+    min-height: 400px;
+    background-color: rgb(12, 12, 74);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    padding-top: 30px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    margin: auto;
+    width: 300px;
+    list-style: none;
+    /* background-color: blue; */
+    text-align: center;
+}
+li{
+    text-align: left;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 0px;
+    background-color: rgb(231, 244, 48);
+    border-radius: 5px;
+}
+
+li b{
+    width: 250px;
+    display: inline-block;
+    overflow-wrap:  break-word;
+}
